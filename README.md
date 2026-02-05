@@ -26,11 +26,16 @@
 * Uniformisation du formatage des dates.  
 * Export du dataframe Pandas unique dans un fichier csv (_global.csv_).
 
-## Phase 2 (⌛ en cours 02/2026, pas encore sur Github) 
+## Phase 2 
 
 * Versioning de données avec DVC.
-* Mise en oeuvre de FastAPI.
+* Mise en oeuvre de FastAPI. (⌛ en cours 02/2026, pas encore sur Github) 
 
 ## Phase 3 (⌛ à venir)
 
-* Statistiques et probabilités de sorties (sur un malentendu ça peut marcher de gagner 220 millions d'euros 😃). 
+* Statistiques et probabilités de sorties (sur un malentendu ça peut marcher de gagner 220 millions d'euros 😃).
+
+## ⌛ TODO 
+
+* Correction problème formatage de dates erronées (valeur : 01/01/1970, unix timestamp).
+* Procédure d'installation de ce projet à partir du clonage du repository.
