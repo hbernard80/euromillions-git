@@ -1,0 +1,29 @@
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Env files (secrets/config)
+.env
+
+# Données (brutes, DVC) 
+# non ignorées car publiques sur FDJ et projet de démo 
+# data/**
+
+# DVC local cache (optionnel, souvent auto)
+.dvc/cache/
+
+# Logs & caches
+*.log
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
