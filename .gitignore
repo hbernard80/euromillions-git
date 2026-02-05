@@ -14,8 +14,9 @@ env/
 .env
 
 # Données (brutes, DVC) 
-# non ignorées car publiques sur FDJ et projet de démo 
-# data/**
+data/**
+# les fichiers .dvc ne doivent pas être ignorés :
+!data/**/*.dvc
 
 # DVC local cache (optionnel, souvent auto)
 .dvc/cache/
